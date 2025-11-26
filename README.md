@@ -84,8 +84,11 @@ uv add pydantic
 
 ---
 
-## Create: `src/db.py`
+Create file: src/db.py
+Install Pydantic for data validation
+uv add pydantic
 
+db.py
 import sqlite3
 import os
 from typing import List, Dict, Any, Optional
@@ -402,4 +405,5 @@ If you want, I can also:
 ✅ Generate a full `azd` template for this project
 
 Just tell me!
+
 
