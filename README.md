@@ -394,7 +394,7 @@ npx @modelcontextprotocol/inspector https://mcp-container-py.blacksky-4375de5a.e
 
 # Resources
 
-* Demo Code: [https://github.com/Mossaka/remote-mcp-python-demo](https://github.com/Mossaka/remote-mcp-python-demo)
+* Demo Code: [https://github.com/ramanjk/demo-remote-mcp-todo](https://github.com/ramanjk/demo-remote-mcp-todo)
 * MCP Authorization Deep Dive: [https://github.blog/ai-and-ml/generative-ai/how-to-build-secure-and-scalable-remote-mcp-servers/](https://github.blog/ai-and-ml/generative-ai/how-to-build-secure-and-scalable-remote-mcp-servers/)
 * MCP Python SDK: [https://github.com/modelcontextprotocol/python-sdk](https://github.com/modelcontextprotocol/python-sdk)
 * MCP Specification: [https://spec.modelcontextprotocol.io/](https://spec.modelcontextprotocol.io/)
@@ -411,6 +411,7 @@ If you want, I can also:
 ✅ Generate a full `azd` template for this project
 
 Just tell me!
+
 
 
 
