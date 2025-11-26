@@ -369,7 +369,7 @@ The **infra/** folder contains:
 ### Test your deployed server
 
 ```bash
-npx @modelcontextprotocol/inspector https://mcp-container-py.blacksea-1835d48f.eastus.azurecontainerapps.io/mcp
+npx @modelcontextprotocol/inspector https://mcp-container-py.blacksky-4375de5a.eastus.azurecontainerapps.io/mcp
 ```
 
 ---
@@ -411,6 +411,7 @@ If you want, I can also:
 ✅ Generate a full `azd` template for this project
 
 Just tell me!
+
 
 
 
