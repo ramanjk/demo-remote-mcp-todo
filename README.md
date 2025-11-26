@@ -342,7 +342,9 @@ npx @modelcontextprotocol/inspector http://127.0.0.1:3000/mcp
 ### 1. Install Azure Developer CLI
 
 ```bash
-brew tap azure/azd && brew install azd
+curl -fsSL https://aka.ms/install-azd.sh | bash
+curl -fsSL https://aka.ms/install-azd.sh | bash
+azd version
 ```
 
 ### 2. Login
@@ -354,9 +356,10 @@ azd auth login
 ### 3. Provision + Deploy
 
 ```bash
+azd init
 azd up
 ```
-
+### Note: Make sure you have infra folder files , Dockerfile, azure.yaml and azureapp_streamable_http_server.py.
 ---
 
 ## 📘 Infrastructure Overview
@@ -371,7 +374,14 @@ The **infra/** folder contains:
 ```bash
 npx @modelcontextprotocol/inspector https://mcp-container-py.blacksky-4375de5a.eastus.azurecontainerapps.io/mcp
 ```
-
+## 🧪 add it in vscode
+```json
+"todo-remote": {
+           "type": "http",
+           "url": "https://mcp-container-py.blacksky-4375de5a.eastus.azurecontainerapps.io/mcp"
+           
+    },
+```
 ---
 
 # Closing Summary
@@ -402,6 +412,7 @@ npx @modelcontextprotocol/inspector https://mcp-container-py.blacksky-4375de5a.e
 * Microsoft MCP Initiatives: [https://github.com/microsoft/mcp](https://github.com/microsoft/mcp)
 
 ---
+
 
 
 
