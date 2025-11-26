@@ -403,14 +403,7 @@ npx @modelcontextprotocol/inspector https://mcp-container-py.blacksky-4375de5a.e
 
 ---
 
-If you want, I can also:
 
-✅ Add badges (Python version, license, build status)
-✅ Add architecture diagrams
-✅ Add folder structure tree
-✅ Generate a full `azd` template for this project
-
-Just tell me!
 
 
 
