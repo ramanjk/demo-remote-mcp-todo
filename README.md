@@ -78,7 +78,7 @@ uv run mcp dev src/dummy_server.py
 
 # Section 2: Building Real Functionality – Todo Management
 
-## Slide 3: Adding Real Business Logic
+## Adding Real Business Logic
 
 ### Create file: `src/db.py`
 
@@ -412,6 +412,7 @@ If you want, I can also:
 ✅ Generate a full `azd` template for this project
 
 Just tell me!
+
 
 
 
