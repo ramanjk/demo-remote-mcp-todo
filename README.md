@@ -364,7 +364,6 @@ azd up
 The **infra/** folder contains:
 
 * `resources.bicep` → Container App, ACR, monitoring
-* `apim-api/` → API Management configuration
 * `main.bicep` → orchestrates the deployment
 
 ### Test your deployed server
@@ -412,6 +411,7 @@ If you want, I can also:
 ✅ Generate a full `azd` template for this project
 
 Just tell me!
+
 
 
 
